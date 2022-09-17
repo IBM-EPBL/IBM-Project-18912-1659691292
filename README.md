@@ -9,7 +9,6 @@ As our lives are very busy these days, we often feel we need more than 24 hrs. a
 Team Leader : Srisai R
 
 Team Members:
-
-Vimal S Dev
-Vikram Krishna
-Srivathsan S
+* Vimal S Dev
+* Vikram Krishna
+* Srivathsan S
