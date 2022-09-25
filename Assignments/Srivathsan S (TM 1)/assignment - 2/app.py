@@ -26,7 +26,7 @@ def getUser():
         dictionary = ibm_db.fetch_assoc(stmt)
         pwd = dictionary["PASSWORD"]
         if password != pwd:
-            return "ERROR"
+            return render_template('error.html')
         return render_template('base.html')
     
 
