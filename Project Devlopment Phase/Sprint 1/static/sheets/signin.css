@@ -8,7 +8,7 @@ body {
   align-items: center;
   padding-top: 100px;
   padding-bottom: 40px;
-  background-color: greenyellow;
+  background-image: url("backr.jpg");
 }
 .form-signin button{
   width: 330px;
@@ -54,4 +54,8 @@ body {
 
   .center{
     width: 330px !important;
+  }
+
+  .white{
+    color: white;
   }
