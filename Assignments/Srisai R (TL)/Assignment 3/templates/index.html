@@ -11,10 +11,10 @@
       <link rel="stylesheet" href="{{ url_for('static',filename='style.css') }}">
    </head>
    <body>
-      {% for row in files %}
+      {% for row in Files %}
          <div style="border: 1px solid #EFEFEF;margin:10px;">
             <h3>Filename : {{row}} </h3>
-            <img src="https://bucket-assignment3.s3.private.jp-tok.cloud-object-storage.appdomain.cloud/{{row}}" width="150px"></td>
+            <img src="https://bucket-assignment3.s3.jp-tok.cloud-object-storage.appdomain.cloud/{{row}}" width="150px"></td>
          </div>
       {% endfor %}
 
