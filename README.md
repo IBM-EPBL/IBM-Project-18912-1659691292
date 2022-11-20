@@ -6,7 +6,7 @@ Team ID: PNT2022MID02285
 Category: Cloud App Development
 
 ## Introduction:
-NewsTracker is a fullstack web application which allows users to register along with their favourite topics, upon login the app displays the news based on the user’s interest. The news displayed in the app is based on the [Newscatcher API](https://rapidapi.com/newscatcher-api-newscatcher-api-default/api/newscatcher/)from [Rapid API](https://rapidapi.com/hub) site.This project is done for [IBM smartinternz](https://careereducation.smartinternz.com/) on the basis of a course by Anna University.
+NewsTracker is a fullstack web application which allows users to register along with their favourite topics, upon login the app displays the news based on the user’s interest. The news displayed in the app is based on the [Newscatcher API](https://rapidapi.com/newscatcher-api-newscatcher-api-default/api/newscatcher/) from [Rapid API](https://rapidapi.com/hub) site.This project is done for [IBM smartinternz](https://careereducation.smartinternz.com/) on the basis of a course by Anna University.
 
 ## FrontEnd:
 - HTML
