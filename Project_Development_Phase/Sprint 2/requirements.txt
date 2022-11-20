@@ -1,0 +1,7 @@
+Jinja2==3.0.3
+Flask==2.2.2
+ibm_db
+secure-smtplib
+gunicorn
+requests
+dateparser

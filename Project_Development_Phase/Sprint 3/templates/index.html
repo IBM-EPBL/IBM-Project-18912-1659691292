@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewreport" content="width=device-width,initial-scale=1.0">
+    <title>News Tracker Application</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <script type = "text/javascript">
+    function preventBack(){window.history.back()};
+    setTimeout("preventback()",0);
+    window.onunload =function(){null;} 
+  </script>
+</head>
+<body class>
+    <nav>
+        <label class="check">
+        <span class=""></span>
+        <button onclick="myFunction()" class="glyphicon glyphicon-th-list"></button>
+    <div id="Demo" class="w3-dropdown-content w3-bar-block w3-border">
+      <a href="#" class="w3-bar-item w3-button">General</a>
+      <a href="#" class="w3-bar-item w3-button">Business</a>
+      <a href="#" class="w3-bar-item w3-button">Sports</a>
+      <a href="#" class="w3-bar-item w3-button">Technology</a>
+      <a href="#" class="w3-bar-item w3-button">Entertainment</a>
+
+    </div>
+  </div>
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("Demo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+    </label>
+        <label class="logo">Trending News</label>
+        <ul>
+            <li><a class="active" href="#">General</a></li>
+            <li><a href="#">Business</a></li>
+            <li><a href="#">Sports</a></li>
+            <li><a href="#">Technology</a></li>
+            <li><a href="#">Entertainment</a></li>
+            <li><a class="search" href="#"> <span class="glyphicon glyphicon-search"></span></a></li>
+            <li><a href="#"><i class="fa fa-ellipsis-v" ></i></a></li>
+        </ul>
+    </nav>
+    
+ 
+</body>
+</html>

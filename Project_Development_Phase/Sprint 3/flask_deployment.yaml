@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: news-app
+
+spec:
+  replicas: 3
+  selector:
+     matchLabels:
+         app: news-app	
+  template:
+     metadata:
+         labels:
+            app: news-app
+     spec:
+         containers:
+         - name: news-app-container
+           image: jp.icr.io/as-4/news-deployment
+           imagePullPolicy: Always
+           ports:
+             - containerPort: 5000
+               protocol: TCP
