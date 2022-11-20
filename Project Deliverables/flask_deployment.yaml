@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: news-track-app
+
+spec:
+  replicas: 5
+  selector:
+     matchLabels:
+         app: news-track-app	
+  template:
+     metadata:
+         labels:
+            app: news-track-app
+     spec:
+         containers:
+         - name: news-track-app-container
+           image: jp.icr.io/as-4/news-track-app
+           imagePullPolicy: Always
+           ports:
+             - containerPort: 5000
+               protocol: TCP
