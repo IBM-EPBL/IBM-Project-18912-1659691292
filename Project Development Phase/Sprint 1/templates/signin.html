@@ -78,7 +78,7 @@
               </div>
             </div>
           </nav>
-<main class="form-signin  ">
+<main class="form-signin">
   <form action = "{{ url_for("getUser")}}" method="POST">
     <img class="mb-4" src="static/Images/house-user-solid.svg" alt="" width="72" height="57">
     <h1 class="h3 mb-3 fw-normal white">Please sign in</h1>
@@ -99,11 +99,11 @@
       </label>
     </div>
     <button class="w-100 btn btn-lg bd-purple-500 btn-outline-warning" type="submit">Sign in</button><br><br>
-    <p class="white"><b>Forgot Password? <a href="static/templates/forpass.html">Change here</b></a></p>
-    <p class="white"><b>Don't have an account? <a href="static/templates/signup.html">Sign Up</b></a></p>
-    <p class="mt-5 mb-3 text-muted"><b>&copy; 2017–2021</b></p>
+    <p class="white"><b>Don't have an account? </b><a href="signup.html">Sign Up</a></p>
+    <p class="mt-5 mb-3 white"><b>&copy; 2017–2021</b></p>
     <p class="white"><b>Or</b></p>
-    <p class="white"><b>Sign in with <img src="static/Images/golo.png" alt=" " width="50" height="50"></b></p>
+    <a href="/login"><p class="white"><b>Sign in with <img src="static/Images/golo.png" alt=" " width="50" height="50"></b></p></a>
+
   </form>
 </main>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>

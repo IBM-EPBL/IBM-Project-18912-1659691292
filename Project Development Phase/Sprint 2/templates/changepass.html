@@ -6,7 +6,12 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.84.0">
-    <title>Sign In</title>
+    <title>Password Change</title>
+    <script type = "text/javascript">
+      function preventBack(){window.history.back()};
+      setTimeout("preventback()",0);
+      window.onunload =function(){null;} 
+    </script>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/sign-in/">
 
@@ -79,17 +84,17 @@
             </div>
           </nav>
 <main class="form-signin  ">
-  <form action = "{{ url_for("getUser")}}" method="POST">
+  <form action = "{{ url_for("enterpass")}}" method="POST">
     <img class="mb-4" src="static/Images/house-user-solid.svg" alt="" width="72" height="57">
     <h1 class="h3 mb-3 fw-normal white">Change Password</h1>
 
     <div class="form-floating">
-      <input type="email" class="form-control" id="floatingInput" name = "uname" placeholder="name@example.com">
+      <input type="password" class="form-control" id="floatingInput" name = "npass" placeholder="name@example.com">
       <label for="floatingPassword">Password</label>
     </div>
     <br>
     <div class="form-floating">
-      <input type="password" class="form-control" id="floatingPassword" name = "upwd" placeholder="Password">
+      <input type="password" class="form-control" id="floatingPassword" name = "cpass" placeholder="Password">
       <label for="floatingPassword">Confirm Password</label>
     </div>
     <button class="w-100 btn btn-lg bd-green-500 btn-outline-warning" type="submit">Change</button><br><br>

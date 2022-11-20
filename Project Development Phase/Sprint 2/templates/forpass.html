@@ -6,7 +6,12 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.84.0">
-    <title>Sign In</title>
+    <title>Forget Password</title>
+    <script type = "text/javascript">
+      function preventBack(){window.history.back()};
+      setTimeout("preventback()",0);
+      window.onunload =function(){null;} 
+    </script>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/sign-in/">
 
@@ -79,16 +84,16 @@
             </div>
           </nav>
 <main class="form-signin  ">
-  <form action = "{{ url_for("getUser")}}" method="POST">
+  <form action = "{{ url_for("changepwd")}}" method="POST">
     <img class="mb-4" src="static/Images/house-user-solid.svg" alt="" width="72" height="57">
     <h1 class="h3 mb-3 fw-normal white">Change your password</h1>
 
     <div class="form-floating">
-      <input type="email" class="form-control" id="floatingInput" name = "uname" placeholder="name@example.com">
+      <input type="email" class="form-control" id="floatingInput" name = "ename" placeholder="name@example.com">
       <label for="floatingInput">Email address</label>
     </div>
     <br>
-    <button class="w-100 btn btn-lg btn-warning btn-outline-warning" type="submit"><a href="static/templates/changepass.html">Change Password</a></button><br><br>
+    <button class="w-100 btn btn-lg btn-warning btn-outline-warning" type="submit">Change Password</button><br><br>
   </form>
 </main>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
