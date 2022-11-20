@@ -24,9 +24,9 @@ As our lives are very busy these days, we often feel we need more than 24 hrs. a
 Team Leader : Srisai R(https://github.com/SriSai-R)
 
 Team Members:
-* Vimal S Dev(https://github.com/vimalsdev)
-* Vikram Krishna(https://github.com/vikram-krishna-s)
-* Srivathsan S(https://github.com/srivathsan-hash)
+* [Vimal S Dev](https://github.com/vimalsdev)
+* [Vikram Krishna](https://github.com/vikram-krishna-s)
+* [Srivathsan S](https://github.com/srivathsan-hash)
 
 ## URLs for the site:
 - [Live website Link](http://159.122.178.79:30504/)
